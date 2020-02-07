@@ -1,0 +1,27 @@
+{
+  "name": "jordanproxy",
+  "version": "1.0.0",
+  "description": "Jordan's proxy server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/proxy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtworm96/jordanproxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtworm96/jordanproxy/issues"
+  },
+  "homepage": "https://github.com/jtworm96/jordanproxy#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.20.0",
+    "nodemon": "^2.0.2",
+    "path": "^0.12.7"
+  }
+}
